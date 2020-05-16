@@ -44,10 +44,8 @@
                 <configuration>
                     <compilerPlugins>
                         <plugin>all-open</plugin>
-                        <plugin>no-arg</plugin>
                     </compilerPlugins>
                     <pluginOptions>
-                        <option>no-arg:annotation=com.tec.kotlin.NoArgsConstructor</option>
                         <option>all-open:annotation=io.micronaut.aop.Around</option>
                     </pluginOptions>
                 </configuration>
